@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="MySTL\Alloc.h" />
+    <ClInclude Include="MySTL\Construct.h" />
+    <ClInclude Include="MySTL\TypeTraits.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MySTL\memory.h" />
+    <ClCompile Include="MySTL\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
